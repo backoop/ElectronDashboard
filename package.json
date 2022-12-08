@@ -1,0 +1,22 @@
+{
+  "name": "electrondashboard",
+  "version": "1.0.0",
+  "description": "Module 306",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backoop/ElectronDashboard.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backoop/ElectronDashboard/issues"
+  },
+  "homepage": "https://github.com/backoop/ElectronDashboard#readme",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
