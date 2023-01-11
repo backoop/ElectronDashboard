@@ -14,14 +14,26 @@
   </head>
   <body>
     <div class="dashboard-container">
-      <div class="card time-container">Time</div>
-
-      <div class="card date-container">Date</div>
-      <div class="card toDo-container">To Do</div>
-
-      <div class="card calendar-container">calendar</div>
-      <div class="card weather-container">Weather</div>
-      <div class="card spotify-container">Spotify</div>
+      <div class="card spotify-container">
+        <div class="now-playing">Now Playing</div>
+        <div class="song-info">
+        <div class="song-title">Never Gonna Give You Up</div>
+        <div class="song-artist">Rick Astley</div>
+      </div>
+        <img src="./assets/albumCover.jpeg" class="song-cover"></img>
+        <div class="song-player">
+          <div class="player-controls">
+          <img src="./assets/forward.svg" class="song-back"></img>
+          <img src="./assets/play.svg" class="song-play"></img>
+          <img src="./assets/forward.svg"  class="song-forward"></img>
+        </div>
+          <div class="song-progress-box">
+          <div class="song-progress">
+            <div class="song-bouble"></div>
+          </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="./renderer.js"></script>
   </body>
