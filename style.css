@@ -61,3 +61,41 @@
   left: 49px;
   top: 626px;
 }
+input {
+  margin: 2px;
+  width: 80%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff;
+  color: var(--background);
+  font-size: 16px;
+
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 1px;
+  border-radius: 25px;
+  border-color: white;
+  background-color: var(--background);
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+ul {
+  list-style: none; /* remove bullet points */
+  padding: 0; /* remove default padding */
+}
+
+li {
+  background-color: var(--background); /* change background color of list items */
+  color: #ffffff; /* change text color of list items */
+  padding: 8px; /* add padding around list items */
+  margin-bottom: 8px; /* add margin at the bottom of each list item */
+  border-radius: 8px; /* add rounded corners to list items */
+  font-size: 16px;
+}
+
