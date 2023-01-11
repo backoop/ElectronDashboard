@@ -39,12 +39,12 @@
 .toDo-container {
   width: 430px;
   height: 895px;
-  left: 946px;
+  left: 1000px;
   top: 38px;
 }
 
 .calendar-container {
-  width: 320px;
+  width: 900px;
   height: 356px;
   left: 43px;
   top: 220px;
@@ -52,8 +52,8 @@
 .weather-container {
   width: 442px;
   height: 288px;
-  left: 418px;
-  top: 240px;
+  left: 500px;
+  top: 626px;
 }
 .spotify-container {
   width: 420.33px;
