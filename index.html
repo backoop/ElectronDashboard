@@ -10,6 +10,7 @@
       content="default-src 'self'; script-src 'self'"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/components/weather.css">
     <title>Electron Dashboard</title>
   </head>
   <body>
@@ -20,7 +21,12 @@
       <div class="card toDo-container">To Do</div>
 
       <div class="card calendar-container">calendar</div>
-      <div class="card weather-container">Weather</div>
+      <div class="card weather-container">
+        <span class="weather__curent-temp__title">Current Temperature</span>
+        <span class="weather__current-temp__value">18</span><span class="weather__current-temp__unit-icon">° C</span>
+
+        <span class="weather__current-temp__icon">ICON</span>
+      </div>
       <div class="card spotify-container">Spotify</div>
     </div>
     <script src="./renderer.js"></script>
