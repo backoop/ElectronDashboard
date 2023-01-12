@@ -10,7 +10,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 1024px;
+  width: 1440px;
   background-color: var(--background);
   overflow: hidden;
 }
@@ -70,7 +71,6 @@ input {
   background-color: var(--background);
   color: white;
   font-size: 16px;
-
 }
 
 button {
@@ -82,7 +82,6 @@ button {
   border-color: #24272c;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 ul {
@@ -91,11 +90,12 @@ ul {
 }
 
 li {
-  background-color: var(--background); /* change background color of list items */
+  background-color: var(
+    --background
+  ); /* change background color of list items */
   color: #ffffff; /* change text color of list items */
   padding: 8px; /* add padding around list items */
   margin-bottom: 8px; /* add margin at the bottom of each list item */
   border-radius: 8px; /* add rounded corners to list items */
   font-size: 16px;
 }
-
