@@ -1,6 +1,7 @@
 const toDoList = document.querySelector(".toDo-container");
 const input = document.createElement("input");
-const button = document.createElement("button");
+const button = document.createElement("button",);
+const check = document.createElement("input");
 const list = document.createElement("ul");
 
 // Load the current To Do list from a file
@@ -13,11 +14,13 @@ fetch("todo.json")
             list.appendChild(listItem);
         });
     });
-
+check.type = "checkbox";
+input.placeholder = "Enter a new To Do";
 button.innerHTML = "Add";
+toDoList.appendChild(list);
 toDoList.appendChild(input);
 toDoList.appendChild(button);
-toDoList.appendChild(list);
+
 
 // Add a new To Do when the button is clicked
 button.addEventListener("click", () => {
