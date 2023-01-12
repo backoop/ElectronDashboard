@@ -63,3 +63,38 @@
   left: 49px;
   top: 626px;
 }
+
+
+/* ---------------------------------- */
+/*                WEATHER             */
+/* ---------------------------------- */
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather__curent-temp__title {
+  margin-top: 28px;
+  margin-bottom: 32px;
+  font-size: 20px;
+}
+
+.weather__current-temp__value {
+  display: flex;
+  flex-direction: row;
+}
+
+.weather__current-temp__value__value {
+  margin-bottom: 42px;
+  font-size: 42px;
+}
+
+.weather__current-temp__value__unit-icon {
+  font-size: 42px;
+}
+
+.weather__current-temp__icon {
+  
+}
+
