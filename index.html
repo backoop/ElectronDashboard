@@ -2,33 +2,35 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="/components/weather.css">
-    <title>Electron Dashboard</title>
-  </head>
-  <body>
-    <div class="dashboard-container">
-      <div class="card time-container">Time</div>
 
-      <div class="card date-container">Date</div>
-      <div class="card toDo-container">To Do</div>
+<head>
+  <meta charset="UTF-8" />
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Electron Dashboard</title>
+</head>
 
-      <div class="card calendar-container">calendar</div>
-      <div class="card weather-container">
-        <span class="weather__curent-temp__title">Current Temperature</span>
-        <span class="weather__current-temp__value"><span class="weather__current-temp__value__value">18</span><span class="weather__current-temp__value__unit-icon">° C</span></span>
+<body>
+  <div class="dashboard-container">
+    <div class="card time-container">Time</div>
 
-        <img src="/assets/images/snow.svg" class="weather__current-temp__icon"></img>
-      </div>
-      <div class="card spotify-container">Spotify</div>
+    <div class="card date-container">Date</div>
+    <div class="card toDo-container">To Do</div>
+
+    <div class="card calendar-container">calendar</div>
+    <div class="card weather-container">
+      <span class="weather__curent-temp__title">Current Temperature</span>
+      <span class="weather__current-temp__value"><span class="weather__current-temp__value__value">18</span><span
+          class="weather__current-temp__value__unit-icon">° C</span></span>
+
+      <img src="./assets/images/snow.svg" class="weather__current-temp__icon"></img>
+
+      <!-- <img src="/assets/images/snow.svg" class="weather__current-temp__icon"> -->
     </div>
-    <script src="./renderer.js"></script>
-  </body>
+    <div class="card spotify-container">Spotify</div>
+  </div>
+  <script src="./renderer.js"></script>
+</body>
+
 </html>
